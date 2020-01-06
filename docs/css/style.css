@@ -1,10 +1,116 @@
+/* ------------------------------body------------------------------- */
 body {
-  padding: 10px;
   background-color: #f6f6f6;
   text-align: center;
+  margin: 0;
+  font: 100%/1.5 'Avenir Next', 'Hiragino Sans', sans-serif;
 }
 
 h1 {
-  color: #ff8954;
   font-weight: bold;
+  margin: 0;
+}
+
+a {
+  text-decoration:none;
+  color: #fff;
+}
+
+p {
+  margin: 0;
+}
+
+/* ------------------------------header------------------------------- */
+
+header {
+  color: #fff;
+  background-color: #ff8954;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-left: 24px; */
+  text-align: center;
+  width: 100vw;
+}
+.head-icon {
+  font-size: 42px;
+  margin: 0 auto;
+  /* font-weight: bold; */
+}
+.navbar {
+  display: flex;
+  position: absolute;
+  right: 3%;
+}
+.nav-icon {
+  margin-left: 34px;
+}
+
+.leavepets {
+  width: 70vw;
+  height: 500px;
+  display: inline-block;
+  background-image: url(../images/leavepets.png);
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  border-radius: 8px;
+  border: 4px solid rgb(48, 48, 48);
+}
+
+.leavepets:hover {
+  box-shadow:0px 0px 6px 6px #b8bbbd;
+  transition: all 200ms 0s ease;
+}
+
+.h1-tag {
+  font-size: 42px;
+  margin: 24px 0;
+}
+.sns-area {
+  padding: 0 10vw;
+  display: flex;
+  justify-content: center;
+}
+.sns-zone {
+  border-radius: 16px;
+  width: 27%;
+  height: 220px;
+  /* background-color: #ff8954;
+  border: 4px solid #ff8954; */
+  margin: 0 30px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+.sns-zone:hover {
+  background-color: #fff;
+  /* color: rgb(112, 102, 102); */
+  /* color: #ff8954; */
+}
+.twitter {
+  background-color: #54c0ff;
+  border: 4px solid #54c0ff;
+}
+.twitter:hover {
+  color:  #54c0ff;
+}
+
+.github {
+  background-color: #628be2;
+  border: 4px solid #628be2;
+}
+.github:hover {
+  color: #628be2;
+}
+
+.wantedly {
+  background-color: rgb(72, 182, 204);
+  border: 4px solid rgb(72, 182, 204);
+}
+.wantedly:hover {
+  color: rgb(72, 182, 204);
 }

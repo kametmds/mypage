@@ -13,7 +13,6 @@ body {
   align-items: center;
   overflow: hidden;
 }
-
 h1 {
   font-weight: bold;
   margin: 0;
@@ -21,18 +20,13 @@ h1 {
 h2 {
   margin: 0;
 }
-
 a {
   text-decoration:none;
   color: #fff;
 }
-
 p {
   margin: 0;
 }
-
-
-
 footer {
   width: 100vw;
   height: 100px;
@@ -45,7 +39,6 @@ footer {
   font-size: 20px;
 }
 /* ------------------------------header------------------------------- */
-
 header {
   color: #fff;
   background-color: #ff8954;
@@ -60,7 +53,6 @@ header {
   padding: 0 240px;
   box-sizing: border-box;
 }
-
 .head-icon {
   font-size: 46px;
   margin: 0 auto;
@@ -76,7 +68,6 @@ header {
 .nav-icon {
   margin-left: 34px;
 }
-
 .leavepets {
   width: 70vw;
   height: 500px;
@@ -88,12 +79,10 @@ header {
   border-radius: 8px;
   border: 4px solid rgb(48, 48, 48);
 }
-
 .leavepets:hover {
   box-shadow:0px 0px 6px 6px #b8bbbd;
   transition: all 200ms 0s ease;
 }
-
 .h1-tag {
   font-size: 42px;
   margin: 24px 0;
@@ -129,7 +118,6 @@ header {
 .twitter:hover {
   color:  #54c0ff;
 }
-
 .github {
   background-color: #628be2;
   border: 4px solid #628be2;
@@ -137,7 +125,6 @@ header {
 .github:hover {
   color: #628be2;
 }
-
 .wantedly {
   background-color: rgb(72, 182, 204);
   border: 4px solid rgb(72, 182, 204);
@@ -156,8 +143,6 @@ header {
 .mail:hover {
   color: rgb(32, 206, 75);
 }
-
-
 .story {
   width: 85vw;
   margin: 0;
@@ -193,7 +178,6 @@ header {
 .left {
   width: 49%;
 }
-
 .first {
   margin-top: 40px;
 }
@@ -204,7 +188,6 @@ header {
   border: 1px solid #000;
   margin: 0 22px;
 }
-
 .circle {
   position: absolute;
   width: 15px;
@@ -250,11 +233,9 @@ header {
   margin-top: 416px;
   left: 49.7%;
 }
-
 .right {
   width: 49%;
 }
-
 .container2 {
   width: 85vw;
   margin: 0;
@@ -262,24 +243,20 @@ header {
   padding: 0 48px;
   border-radius: 12px;
 }
-
 .border2 {
   border: 1px dashed rgb(139, 138, 138);
   height: 120px;
   margin: 0 22px;
 }
-
 .future-text {
   font-size: 20px;
   margin: 4px 0;
   font-weight: 280;
 }
-
 .no-margin {
   margin: 0 0 22px;
   height: 56px;
 }
-
 .no-margin2 {
   margin: 26px 0 8px;
   height: 56px;
@@ -288,32 +265,25 @@ header {
   width: 65vw;
   margin-bottom: 40px;
 }
-
 .mailer {
   color: #000;
 }
 
 @media screen and (max-width:768px) {
-/* body {
-  overflow: hidden;
-} */
 header {
   width: 100%;
   padding: 29vw;
 }
-
 .intro {
   width: 92vw;
 }
 .intro h2 {
   font-size: 20px;
 }
-
 .sns-area {
   width: 100vw;
 }
 .sns-zone {
-  /* height: 72px; */
   height: 20vw;
   width: 25vw;
   padding: 2vh 0 ;
@@ -327,7 +297,6 @@ header {
   width: 194px;
   padding-top: 6px;
 }
-
 .leavepets {
   height: 25vh;
   width: 100%;
@@ -339,7 +308,6 @@ header {
 .portfolio h2 {
   font-size: 22px;
 }
-
 .story {
 display: none;
 }
@@ -363,11 +331,9 @@ display: none;
 .container {
   width: 90vw;
 }
-
 .future-text {
   font-size: 17px;
 }
-
 .pickup {
   font-size: 20px;
 }

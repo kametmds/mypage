@@ -1,12 +1,17 @@
 /* ------------------------------body------------------------------- */
 body {
+  margin: 0;
+}
+.contain {
   background-color: #f6f6f6;
   text-align: center;
   margin: 0;
+  width: 100vw;
   font: 100%/1.5 'Avenir Next', 'Hiragino Sans', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
 
 h1 {
@@ -161,7 +166,9 @@ header {
   border-radius: 12px;
   height: 660px;
 }
-
+.story2 {
+  display: none;
+}
 .story-head {
   font-size: 24px;
   margin: 12px 0;
@@ -263,7 +270,7 @@ header {
 }
 
 .future-text {
-  font-size: 24px;
+  font-size: 20px;
   margin: 4px 0;
   font-weight: 280;
 }
@@ -278,10 +285,90 @@ header {
   height: 56px;
 }
 .container {
-  width: 80vw;
+  width: 65vw;
   margin-bottom: 40px;
 }
 
 .mailer {
   color: #000;
+}
+
+@media screen and (max-width:768px) {
+/* body {
+  overflow: hidden;
+} */
+header {
+  width: 100%;
+  padding: 29vw;
+}
+
+.intro {
+  width: 92vw;
+}
+.intro h2 {
+  font-size: 20px;
+}
+
+.sns-area {
+  width: 100vw;
+}
+.sns-zone {
+  /* height: 72px; */
+  height: 20vw;
+  width: 25vw;
+  padding: 2vh 0 ;
+  margin: 0 8px;
+}
+.resp {
+  display: none;
+}
+.mail {
+  /* height: 102px; */
+  width: 194px;
+  padding-top: 6px;
+}
+
+.leavepets {
+  height: 25vh;
+  width: 100%;
+  margin-bottom: 24px;
+}
+.portfolio {
+  width: 87vw;
+}
+.portfolio h2 {
+  font-size: 22px;
+}
+
+.story {
+display: none;
+}
+.story2 {
+  width: 85vw;
+  margin: 0;
+  display: flex;
+  padding: 0 48px;
+  border-radius: 12px;
+  height: 660px;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+}
+.story-content {
+  margin-top: 12px;
+}
+.border {
+  display: none;
+}
+.container {
+  width: 90vw;
+}
+
+.future-text {
+  font-size: 17px;
+}
+
+.pickup {
+  font-size: 20px;
+}
 }

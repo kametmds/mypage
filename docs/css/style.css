@@ -50,7 +50,7 @@ a {
   padding-left: 10%;
 }
 .intro-image {
-  background: url(../images/whitefox.jpg) no-repeat;
+  /* background: url(../images/whitefox.jpg) no-repeat; */
   position: absolute;
   right: 0;
   top: 0;
@@ -305,10 +305,5 @@ a {
   }
   .timeline {
     padding-left: 30px;
-  }
-}
-@media screen and (min-width:768px) {
-  .intro {
-    background: url(../images/fox.jpg) no-repeat center;
   }
 }
